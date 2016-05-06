@@ -17,7 +17,7 @@ Assim, temos dois executaveis. Um deles fraciona em arquivos menores e outro pro
 
 A pasta 'Executavel' na raiz ja contem os arquivos jar gerados a partir do projeto. Nela tambem voce encontra os arquivos 'Executar.bat' que invoca os jars adequadamente para gerar fragmentos e processar os fragmentos gerados.
 
-
+Edite a linha 5 do arquivo bat colocando o caminho completo ate a pasta txt gerada pelo DouDownloader
 
 Enquanto a geracao de conexoes acontece, voce pode acompanhar a inclusao de documentos no banco pela url http://127.0.0.1:5984/_utils/index.html
 
