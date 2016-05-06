@@ -21,4 +21,4 @@ Edite a linha 5 do arquivo bat colocando o caminho completo ate a pasta txt gera
 
 Enquanto a geracao de conexoes acontece, voce pode acompanhar a inclusao de documentos no banco pela url http://127.0.0.1:5984/_utils/index.html
 
-Se forem identificadas mais de 200 conexoes na mesma portaria, o seu texto é exibido no console para exame. 
+Se forem identificadas mais de 10 pessoas na mesma portaria ela sera ignorada. Isso por que é provavel que se trate de apenas uma listagem na qual as pessoas nao tem relação tao proxima. Caso queria considerar esses casos, alttere o ConnectionProducer.java (Se implementar parametrizacao para isso, ficarei feliz em aceitar seu pull request) 
