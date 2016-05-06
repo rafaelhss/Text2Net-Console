@@ -13,6 +13,7 @@ Essa solução armazena as conexoes no banco de dados couchDB. Portanto é neces
 
 A solucao tem um consumo de memória intenso. Para minimizar os efeitos disso uma estratégia é fracionar os arquivos de entrada em porções menores.
 Assim, temos dois executaveis. Um deles fraciona em arquivos menores e outro processa esses arquivos. Embora recomendado, o fracionamento dos arquivos é opcional.
+Os fragmentos sao gerados de tal forma que nao quebram uma portaria ao meio. ha a garantia de que uma portaria estara sempre em apenas um fragmento.
 
 
 A pasta 'Executavel' na raiz ja contem os arquivos jar gerados a partir do projeto. Nela tambem voce encontra os arquivos 'Executar.bat' que invoca os jars adequadamente para gerar fragmentos e processar os fragmentos gerados.
